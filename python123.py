@@ -11,3 +11,8 @@ for k, value in enumerate(dsSP):
 #abc
 if(2>1):
     print("troi mua")
+
+person = {"name": "John", "age": 40, "city": "sai gon"}
+
+for key, value in person.items():
+    print(f"{key}: {value}")
