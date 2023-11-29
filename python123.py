@@ -9,3 +9,5 @@ for k, value in enumerate(dsSP):
     print(f"ds sp la: {value}, vi tri: {k}")
 
 #abc
+if(2>1):
+    print("troi mua")
