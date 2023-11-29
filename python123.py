@@ -15,4 +15,4 @@ if(2>1):
 person = {"name": "John", "age": 40, "city": "sai gon"}
 
 for key, value in person.items():
-    print(f"{key}: {value}")
+    print(f"{key}: {value}", end=' | ')
