@@ -16,3 +16,7 @@ person = {"name": "John", "age": 40, "city": "sai gon"}
 
 for key, value in person.items():
     print(f"{key}: {value}", end=' | ')
+
+for a in person:
+   # print(f"{a["name"]}")
+    print(person["name"])
